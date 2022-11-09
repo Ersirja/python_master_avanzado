@@ -1,0 +1,11 @@
+file = open('texto.tx','w')
+file.write("Hola \n")
+file.write("Como estás? \n")
+file.write("Coomo te encuentras? \n")
+file.close()
+
+ficha = open('texto.tx')
+print(ficha.readline())
+print(ficha.readline())
+print(ficha.readline())
+file.close()
